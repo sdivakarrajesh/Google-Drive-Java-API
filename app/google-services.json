@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "908360854595",
+    "project_id": "drive-sample-189015"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908360854595:android:be2841b59f437f2b",
+        "android_client_info": {
+          "package_name": "com.dev.theblueorb.usingdrivejavaapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908360854595-qvi5mtnmd8rk444jtvbs7lf45em5upgd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "908360854595-5l1lfqhuimcaskdc0vqtgdnhorh6stmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.theblueorb.usingdrivejavaapi",
+            "certificate_hash": "425ab2dda437d8003d1b2876d198d097c094ed3e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv2pcuMoS5pKstJv2um38lM_B315m3b-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
