@@ -82,4 +82,5 @@ Licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 email me:  dev.theblueorb@gmail.com
 
+Most of the code is self explainatory and also comments are added to get you through the code easily 
 Be sure to ping me too if there are bugs or if the code is not working as expected 
