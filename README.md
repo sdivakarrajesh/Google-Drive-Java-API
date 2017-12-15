@@ -10,7 +10,11 @@ Then get the google services JSON and add it to the app folder of your android p
 
 ##Adding the permissions 
 Be sure that you have added the following permissions in the android Manifest
-
+  `<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`
 
 ##Adding the dependencies
 Be sure that you have added the following dependencies in the Project level gradle build file
