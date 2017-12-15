@@ -3,10 +3,10 @@
 To use this code
 
 ##  Get the credentials
-First go to 
+-First go to 
 [console.developers.google.com](https://console.developers.google.com)
-and get enable G+ api and Drive Api
-Then get the google services JSON and add it to the app folder of your android project
+and enable G+ api and Drive Api
+-Then get the google services JSON and add it to the app folder of your android project
 
 
 ##  Adding the permissions 
@@ -64,3 +64,7 @@ Below everything else add
 	
 	
 	apply plugin: 'com.google.gms.google-services'
+
+Adding the library
+This app uses the apache io library to copy the inputStream to a file you can download it [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-net-3.6.jar) and [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-io-2.6.jar)
+Use this link to learn how to add external libraries to your android studio projects from [here](https://stackoverflow.com/questions/16608135/android-studio-add-jar-as-library)
