@@ -4,7 +4,7 @@ To use this code
 
 ##  Get the credentials
 First go to 
-{console.developers.google.com}(https://console.developers.google.com)
+[console.developers.google.com](https://console.developers.google.com)
 and get enable G+ api and Drive Api
 Then get the google services JSON and add it to the app folder of your android project
 
