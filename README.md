@@ -3,7 +3,7 @@
 ##  WHAT THIS APP DOES?
 
 This app is an example that shows how to use the Google Drive Java Client Api to perform requests such as uploading a file or creating a folder in the users Google Drive with their permissions
-This app shows only how to upload a file and to create a folder. To know and use more of the features that Google Drive Api for Java provides visit the [Official Documentation](https://developers.google.com/drive/v3/web/about-sdk)
+This app shows only how to upload a file( a Spreadsheet and convert it into G Sheet) and to create a folder. To know and use more of the features that Google Drive Api for Java provides visit the [Official Documentation](https://developers.google.com/drive/v3/web/about-sdk)
 
 To use this code
 
@@ -69,6 +69,17 @@ Below everything else add
 	
 	apply plugin: 'com.google.gms.google-services'
 
-Adding the library
+##  Adding the library
 This app uses the apache io library to copy the inputStream to a file you can download it [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-net-3.6.jar) and [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-io-2.6.jar)
 Use this [link](https://stackoverflow.com/questions/16608135/android-studio-add-jar-as-library) to learn how to add external libraries to your android studio projects
+
+
+##  License
+
+Licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+##  For more info and queries 
+
+email me:  dev.theblueorb@gmail.com
+
+Be sure to ping me too if there are bugs or if the code is not working as expected 
