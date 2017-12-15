@@ -1,5 +1,10 @@
 # Uploading-Files-to-Google-drive-using-java-client-api-in-Android
 
+##  WHAT THIS APP DOES?
+
+This app is an example that shows how to use the Google Drive Java Client Api to perform requests such as uploading a file or creating a folder in the users Google Drive with their permissions
+This app shows only how to upload a file and to create a folder. To know and use more of the features that Google Drive Api for Java provides visit the [Official Documentation](https://developers.google.com/drive/v3/web/about-sdk)
+
 To use this code
 
 ##  Get the credentials
@@ -55,8 +60,7 @@ then add
 		compile('com.google.api-client:google-api-client-android:1.23.0') {
 			exclude group: 'org.apache.httpcomponents'
 		}
-		implementation files('libs/commons-io-2.6.jar')
-		implementation files('libs/commons-net-3.6.jar')
+		
 	
 	
 	
