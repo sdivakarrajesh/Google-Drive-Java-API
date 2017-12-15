@@ -23,7 +23,7 @@ Be sure that you have added the following permissions in the android Manifest
 ##  Adding the dependencies
 Be sure that you have added the following dependencies in the Project level gradle build file
 
-	`classpath 'com.google.gms:google-services:3.1.0'		`	
+	classpath 'com.google.gms:google-services:3.1.0'		
  
 Add the following dependencies in the App level gradle build file
 	
@@ -62,4 +62,4 @@ then add
 Below everything else add
 	
 	
-	`apply plugin: 'com.google.gms.google-services'`
+	apply plugin: 'com.google.gms.google-services'
