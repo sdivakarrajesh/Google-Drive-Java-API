@@ -44,7 +44,7 @@ then add
 	
 	
 	
-	compile 'com.google.android.gms:play-services-auth:11.6.2'
+		compile 'com.google.android.gms:play-services-auth:11.6.2'
 		compile('com.google.apis:google-api-services-drive:v3-rev90-1.23.0') {
 			exclude group: 'org.apache.httpcomponents'
 		}
@@ -67,4 +67,4 @@ Below everything else add
 
 Adding the library
 This app uses the apache io library to copy the inputStream to a file you can download it [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-net-3.6.jar) and [here](https://github.com/sdivakarrajesh/Uploading-Files-to-Google-drive-using-java-client-api-in-Android/blob/master/app/libs/commons-io-2.6.jar)
-Use this link to learn how to add external libraries to your android studio projects from [here](https://stackoverflow.com/questions/16608135/android-studio-add-jar-as-library)
+Use this [link](https://stackoverflow.com/questions/16608135/android-studio-add-jar-as-library) to learn how to add external libraries to your android studio projects
