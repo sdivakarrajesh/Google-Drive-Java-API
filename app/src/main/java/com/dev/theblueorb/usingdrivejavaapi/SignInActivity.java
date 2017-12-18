@@ -1,30 +1,25 @@
 package com.dev.theblueorb.usingdrivejavaapi;
 
 import android.content.Intent;
-import android.net.Uri;
-import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+
 import android.widget.Toast;
 
-import com.google.android.gms.auth.GoogleAuthUtil;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.drive.Drive;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
-
-import java.io.Serializable;
 
 public class SignInActivity extends AppCompatActivity{
     Button mSignOut,mRevokeAccess;
@@ -64,8 +59,6 @@ public class SignInActivity extends AppCompatActivity{
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
-                .requestScopes(Drive.SCOPE_FILE)
-                .requestScopes(Drive.SCOPE_APPFOLDER)
                 .build();
 
         /*In order to access files in drive the scope of the permission has to be specified.
