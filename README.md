@@ -2,7 +2,7 @@
 
 ##  WHAT THIS APP DOES?
 
-This app is an example that shows how to use the Google Drive Java Client Api to perform requests such as uploading a file or creating a folder in the users Google Drive with their permissions
+This app is an example that shows how to use the Google Drive Java Client Api and Google+ sign-in APi(Android client API) to perform requests such as uploading a file or creating a folder in the users Google Drive with their permissions
 This app shows only how to upload a file( a Spreadsheet and convert it into G Sheet) and to create a folder. To know and use more of the features that Google Drive Api for Java provides visit the [Official Documentation](https://developers.google.com/drive/v3/web/about-sdk)
 
 To use this code
